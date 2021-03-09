@@ -1,0 +1,33 @@
+{
+  "name": "cli-alerts",
+  "version": "1.0.0",
+  "description": "Cross platform CLI Alerts with colors",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tbanys/cli-alerts.git"
+  },
+  "keywords": [
+    "cli-alerts"
+  ],
+  "author": "Tautvydas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tbanys/cli-alerts/issues"
+  },
+  "homepage": "https://github.com/tbanys/cli-alerts#readme",
+  "scripts": {
+    "test": "node test.js",
+    "format": "prettier --write \"./**/*.{js,json}\""
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "log-symbols": "^4.0.0"
+  }
+}
